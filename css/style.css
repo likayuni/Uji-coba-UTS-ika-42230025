@@ -3,8 +3,22 @@
   margin: 0;
   font-family: Poppins, sans-serif;
 }
+a {
+  color: inherit;
+  text-decoration: none;
+}
 
 .medsos {
   padding: 5px 0;
   background-color: #a4dae9;
+}
+
+.medsos ul li {
+  display: inline-block;
+  color: rgb(0, 75, 72);
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
 }
