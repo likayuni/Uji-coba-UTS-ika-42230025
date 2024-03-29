@@ -16,9 +16,22 @@ a {
 .medsos ul li {
   display: inline-block;
   color: rgb(0, 75, 72);
+  margin-right: 10px;
 }
 
 .container {
   width: 90%;
   margin: 0 auto;
+}
+
+header {
+  border: 1px solid;
+}
+header h1 {
+  border: 1px solid;
+  float: left;
+}
+header ul {
+  border: 1px solid;
+  float: right;
 }
