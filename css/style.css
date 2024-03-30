@@ -10,7 +10,7 @@ a {
 
 .medsos {
   padding: 5px 0;
-  background-color: rgb(15, 128, 120);
+  background-color: hwb(176 9% 51%);
 }
 
 .medsos ul li {
@@ -60,6 +60,8 @@ header ul li a:hover {
   background-size: cover;
   position: relative;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .banner:after {
   content: "";
@@ -75,8 +77,20 @@ header ul li a:hover {
   color: #fff;
   z-index: 1;
   padding: 20px 25px;
-  border: 3px solid #f3e5d9;
+  border: 3.5px solid #f3e5d9;
 }
 section {
   padding: 50px 0;
+}
+
+section h3 {
+  text-align: center;
+  padding: 20px 0;
+  color: hwb(176 9% 51%);
+  margin-bottom: 20px;
+}
+.about p {
+  color: #2c2c2c;
+  word-spacing: 2px;
+  line-height: 25px;
 }
