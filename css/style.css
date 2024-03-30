@@ -22,16 +22,32 @@ a {
 .container {
   width: 90%;
   margin: 0 auto;
+  border: 1px solid;
 }
 
+.container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 header {
   border: 1px solid;
 }
+
 header h1 {
   border: 1px solid;
   float: left;
+  padding: 20px 0;
+  color: rgb(2, 43, 41);
 }
 header ul {
   border: 1px solid;
   float: right;
+}
+header ul li {
+  display: inline-block;
+}
+header ul li a {
+  padding: 20px 15px;
+  display: inline-block;
 }
