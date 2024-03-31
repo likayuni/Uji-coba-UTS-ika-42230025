@@ -94,3 +94,26 @@ section h3 {
   word-spacing: 2px;
   line-height: 25px;
 }
+.profil {
+  background-color: #f9f9f9;
+}
+.image {
+  --gap: 10px;
+  --num-cols: 5;
+  --row-height: 500px
+
+  box-sizing: border-box;
+  padding: var(--gap);
+
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(var(--num-cols), 1fr);
+  grid-auto-rows: var(--row-height);
+  gap: var(--gap);
+}
+
+.image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
