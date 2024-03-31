@@ -128,3 +128,6 @@ footer {
   background-color: cadetblue;
   color: #fff;
 }
+.col-4 {
+  color: hwb(176 9% 51%);
+}
