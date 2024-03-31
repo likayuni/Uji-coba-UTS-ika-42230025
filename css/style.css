@@ -93,6 +93,8 @@ section h3 {
   color: #2c2c2c;
   word-spacing: 2px;
   line-height: 25px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 .profil {
   background-color: #f9f9f9;
@@ -128,6 +130,19 @@ footer {
   background-color: cadetblue;
   color: #fff;
 }
-.col-4 {
+.col-4 {  
   color: hwb(176 9% 51%);
+}
+@media screen and (max-width: 768px){
+  .container {
+    width: 90%;
+  }
+  header h1 {
+    text-align: center;
+    float: none ; 
+  }
+  header ul {
+    text-align: center;
+    float: none;
+  }
 }
