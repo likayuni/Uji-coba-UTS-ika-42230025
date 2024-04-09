@@ -29,7 +29,6 @@ a {
   display: block;
   clear: both;
 }
-
 header h1 {
   float: left;
   padding: 20px 0;
@@ -55,13 +54,26 @@ header ul li a:hover {
 }
 
 .banner {
-  height: 60vh;
+  height: 75vh;
+  color: #fff;
   background-image: url(../img/pic2.png);
   background-size: cover;
   position: relative;
   display: flex;
   justify-content: center;
+  align-items: center;  
+}
+.banner a {
+  height: 75vh;
+  color: #fff;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
   align-items: center;
+}
+.banner a:hover {
+  opacity: 0.6;
 }
 .banner:after {
   content: "";
@@ -100,14 +112,14 @@ section h3 {
   background-color: #f9f9f9;
 }
 .image {
-  --gap: 10px;
+  --gap: 15px;
   --num-cols: 5;
   --row-height: 500px
 
   box-sizing: border-box;
   padding: var(--gap);
 
-  display: grid;
+  display: flex;
   flex-wrap: wrap;
   grid-template-columns: repeat(var(--num-cols), 1fr);
   grid-auto-rows: var(--row-height);
@@ -145,4 +157,9 @@ footer {
     text-align: center;
     float: none;
   }
+}
+.foto {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
 }
